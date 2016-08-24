@@ -1,0 +1,244 @@
+/* Contact Form */
+@import "https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oleo+Script:400,700";
+/* line 4, ../scss/layout/_layout.scss */
+textarea.form-control {
+  height: 20rem; }
+
+/* line 7, ../scss/layout/_layout.scss */
+.contact-btn {
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  right: 10px; }
+
+/* line 13, ../scss/layout/_layout.scss */
+.modal-content {
+  padding-bottom: 10px; }
+
+/* line 16, ../scss/layout/_layout.scss */
+.modal-sm form {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* line 20, ../scss/layout/_layout.scss */
+#recaptcha {
+  display: inline-flex; }
+
+/* Navigation */
+/* line 27, ../scss/layout/_layout.scss */
+.navigation {
+  margin-top: 6rem; }
+
+/* line 30, ../scss/layout/_layout.scss */
+.navbar {
+  margin-top: 20px; }
+
+/* line 33, ../scss/layout/_layout.scss */
+.navbar li {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+/* Body */
+/* line 40, ../scss/layout/_layout.scss */
+.site-body {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+
+/* line 44, ../scss/layout/_layout.scss */
+.text-content {
+  padding-top: 4rem; }
+
+/* Home Page */
+/* line 50, ../scss/layout/_layout.scss */
+#top, #mid, #btm {
+  padding: 4rem; }
+
+/* line 53, ../scss/layout/_layout.scss */
+#top .graphic {
+  background: url("../img/responsive.png") no-repeat center center;
+  background-size: contain; }
+
+/* line 57, ../scss/layout/_layout.scss */
+#mid .graphic {
+  background: url("../img/search.png") no-repeat center center;
+  background-size: contain;
+  max-width: 80rem;
+  margin: auto; }
+
+/* line 63, ../scss/layout/_layout.scss */
+#btm .graphic {
+  background: url("../img/code.png") no-repeat center center;
+  background-size: contain; }
+
+/* line 67, ../scss/layout/_layout.scss */
+.graphic {
+  height: 20rem; }
+
+/* Footer */
+/* line 73, ../scss/layout/_layout.scss */
+.footer {
+  height: 20rem;
+  max-width: 100%;
+  margin: 0; }
+
+/* line 78, ../scss/layout/_layout.scss */
+.footer .site-info {
+  padding: 8rem; }
+
+/* line 1, ../scss/colors/_colors.scss */
+body {
+  color: white; }
+
+/* line 4, ../scss/colors/_colors.scss */
+.site-body {
+  background: #09b592; }
+
+/* line 7, ../scss/colors/_colors.scss */
+.navigation {
+  background: #05888f; }
+
+/* line 10, ../scss/colors/_colors.scss */
+.navigation a {
+  color: #b1f8fc; }
+
+/* line 13, ../scss/colors/_colors.scss */
+.navigation a:hover {
+  color: #024246; }
+
+/* line 16, ../scss/colors/_colors.scss */
+.modal-content .title {
+  color: #024246; }
+
+/* line 19, ../scss/colors/_colors.scss */
+#top {
+  background: #069fa8; }
+
+/* line 22, ../scss/colors/_colors.scss */
+#mid {
+  background: #09b592; }
+
+/* line 25, ../scss/colors/_colors.scss */
+#btm {
+  background: #099b5f; }
+
+/* line 28, ../scss/colors/_colors.scss */
+.footer {
+  background: #022215; }
+
+/* line 31, ../scss/colors/_colors.scss */
+.footer a {
+  color: #b1f8fc; }
+
+/* line 34, ../scss/colors/_colors.scss */
+.footer a:hover {
+  color: #024246; }
+
+/* line 37, ../scss/colors/_colors.scss */
+label {
+  color: darkgrey; }
+
+/* line 40, ../scss/colors/_colors.scss */
+label .req {
+  color: lightgrey; }
+
+/* line 3, ../scss/typography/_typography.scss */
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2.4rem; }
+
+/* line 7, ../scss/typography/_typography.scss */
+h1, h2, h3, h4, h5, h6,
+.navigation {
+  font-family: 'Oleo Script', cursive;
+  font-weight: 700; }
+
+/* line 12, ../scss/typography/_typography.scss */
+.navigation {
+  font-size: 4rem; }
+
+/* line 15, ../scss/typography/_typography.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 18, ../scss/typography/_typography.scss */
+.modal-content .title {
+  font-family: 'Merriweather Sans', sans-serif; }
+
+/* line 21, ../scss/typography/_typography.scss */
+.modal-content {
+  font-size: initial; }
+
+/* line 24, ../scss/typography/_typography.scss */
+.footer {
+  font-size: 1.6rem; }
+
+@media (min-width: 200px) {
+  /* Site */
+  /* line 5, ../scss/media-queries/_200.scss */
+  body {
+    background: #d9f5f7;
+    background-attachment: fixed;
+    font-size: 2rem; }
+
+  /* Header */
+  /* line 11, ../scss/media-queries/_200.scss */
+  .site-logo {
+    height: 20rem;
+    background: url("../img/logo-w-sun_sm.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
+  /* Navigation */
+  /* line 19, ../scss/media-queries/_200.scss */
+  .navigation {
+    font-size: 3rem; }
+
+  /* line 22, ../scss/media-queries/_200.scss */
+  .navbar li {
+    display: block; }
+
+  /* Contact Form */
+  /* line 26, ../scss/media-queries/_200.scss */
+  .modal-sm {
+    width: 90%;
+    float: none;
+    margin: auto;
+    margin-top: 10%; } }
+@media (min-width: 720px) {
+  /* Site */
+  /* line 3, ../scss/media-queries/_720.scss */
+  body {
+    background: #d9f5f7 url("../img/sun.png") no-repeat center top;
+    background-attachment: fixed;
+    font-size: 2.4rem; }
+
+  /* Header */
+  /* line 9, ../scss/media-queries/_720.scss */
+  .site-logo {
+    height: 40rem;
+    background: url("../img/aca-logo_x-large.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
+  /* Contact Form */
+  /* line 18, ../scss/media-queries/_720.scss */
+  .modal-sm {
+    width: 60%; }
+
+  /* Navigation */
+  /* line 22, ../scss/media-queries/_720.scss */
+  .navigation {
+    font-size: 4rem; }
+
+  /* line 25, ../scss/media-queries/_720.scss */
+  .navbar li {
+    display: inline-block; } }
+@media (min-width: 1024px) {
+  /* Contact Form */
+  /* line 3, ../scss/media-queries/_1024.scss */
+  .modal-sm {
+    width: 500px; } }
+
+/*# sourceMappingURL=style.css.map */
