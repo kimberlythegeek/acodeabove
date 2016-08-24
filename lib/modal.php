@@ -82,14 +82,14 @@ if (isset($_POST['submit'])){
           <label for="form-phone">Phone Number <span class="req">(required)</span></label>
           <div class="input-group">
             <div class="input-group-addon"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></div>
-            <input id="form-phone" class="form-control" name="phone" placeholder="(123) 456-7890">
+            <input type="tel" id="form-phone" class="form-control" name="phone" placeholder="(123) 456-7890">
             <span class="glyphicon form-control-feedback form-phone" aria-hidden="true"></span>
           </div><!-- .input-group -->
         </div><!-- .form-group -->
 
         <div class="form-group has-feedback form-email">
           <label for="form-email">Email Address <span class="req">(required)</span></label>
-          <input id="form-email" class="form-control" name="email" placeholder="Email Address">
+          <input type="email" id="form-email" class="form-control" name="email" placeholder="Email Address">
           <span class="glyphicon form-control-feedback form-email" aria-hidden="true"></span>
         </div>
 
