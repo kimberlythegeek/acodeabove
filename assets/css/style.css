@@ -76,12 +76,16 @@ textarea.form-control {
 
 /* Footer */
 /* line 73, ../scss/layout/_layout.scss */
+footer {
+  display: inline; }
+
+/* line 76, ../scss/layout/_layout.scss */
 .footer {
   height: 20rem;
   max-width: 100%;
   margin: 0; }
 
-/* line 78, ../scss/layout/_layout.scss */
+/* line 81, ../scss/layout/_layout.scss */
 .footer .site-info {
   padding: 8rem; }
 
