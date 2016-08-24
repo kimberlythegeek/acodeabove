@@ -21,19 +21,5 @@ $(document).ready(function(){
     }
   });
 
-  // $('#submit-form').on('click', function(){
-  //   var name = $('#form-name').val().replace(/<|>/g, ""), // prevent xss
-  //   phone = $('#form-phone').val().replace(/<|>/g, ""),
-  //   email = $('#form-email').val().replace(/<|>/g, ""),
-  //   msg = $('#form-msg').val().replace(/<|>/g, "");
-  //
-  //   $.ajax({
-  //       type: "POST",
-  //       url: "http://localhost/acodeabove/sendmail.php",
-  //       data: "email=" + email + "phone=" + phone + "&name=" + name + "&msg=" + msg + "&g-recaptcha-response=" + grecaptcha.getResponse()
-  //   });
-  //
-  // });
-  //   console.log(grecaptcha.getResponse());
 });
 
