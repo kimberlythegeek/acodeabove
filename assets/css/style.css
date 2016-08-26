@@ -74,20 +74,30 @@ textarea.form-control {
 .graphic {
   height: 20rem; }
 
+/* Privacy Policy Page */
+/* line 72, ../scss/layout/_layout.scss */
+.privacy {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
 /* Footer */
-/* line 73, ../scss/layout/_layout.scss */
+/* line 78, ../scss/layout/_layout.scss */
 footer {
+  height: 20rem;
   display: inline; }
 
-/* line 76, ../scss/layout/_layout.scss */
+/* line 82, ../scss/layout/_layout.scss */
 .footer {
-  height: 20rem;
   max-width: 100%;
   margin: 0; }
 
-/* line 81, ../scss/layout/_layout.scss */
+/* line 86, ../scss/layout/_layout.scss */
 .footer .site-info {
   padding: 8rem; }
+
+/* line 89, ../scss/layout/_layout.scss */
+.site-seal {
+  margin-top: 14rem; }
 
 /* line 1, ../scss/colors/_colors.scss */
 body {
@@ -125,25 +135,38 @@ body {
 #btm {
   background: #099b5f; }
 
-/* line 28, ../scss/colors/_colors.scss */
+/* line 29, ../scss/colors/_colors.scss */
 .footer {
   background: #022215; }
 
-/* line 31, ../scss/colors/_colors.scss */
+/* line 32, ../scss/colors/_colors.scss */
 .footer a {
   color: #b1f8fc; }
 
-/* line 34, ../scss/colors/_colors.scss */
+/* line 35, ../scss/colors/_colors.scss */
 .footer a:hover {
   color: #024246; }
 
-/* line 37, ../scss/colors/_colors.scss */
+/* line 38, ../scss/colors/_colors.scss */
 label {
   color: darkgrey; }
 
-/* line 40, ../scss/colors/_colors.scss */
+/* line 41, ../scss/colors/_colors.scss */
 label .req {
   color: lightgrey; }
+
+/* Privacy Policy Page */
+/* line 46, ../scss/colors/_colors.scss */
+.privacy {
+  background: #069fa8; }
+
+/* line 49, ../scss/colors/_colors.scss */
+.privacy a {
+  color: #022215; }
+
+/* line 52, ../scss/colors/_colors.scss */
+.privacy a:hover {
+  color: #099b5f; }
 
 /* line 3, ../scss/typography/_typography.scss */
 body {
@@ -172,9 +195,20 @@ a:hover {
 .modal-content {
   font-size: initial; }
 
-/* line 24, ../scss/typography/_typography.scss */
+/* Privacy Policy Page */
+/* line 26, ../scss/typography/_typography.scss */
+.privacy,
+.privacy h1,
+.privacy h3 {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+/* line 32, ../scss/typography/_typography.scss */
 .footer {
   font-size: 1.6rem; }
+
+/* line 35, ../scss/typography/_typography.scss */
+.links {
+  font-size: 10px; }
 
 @media (min-width: 200px) {
   /* Site */
