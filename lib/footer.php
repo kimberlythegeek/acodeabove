@@ -15,8 +15,8 @@
   <div class="row footer text-left links">
     <div class="col-lg-12">
       <ul class="list-unstyled list-inline">
-        <li><a href="http://www.acodeabove.com/terms.php">Terms & Conditions</a></li>
-        <li><a href="http://www.acodeabove.com/privacy-policy.php">Privacy Policy</a></li>
+        <li><a href="http://localhost/acodeabove/terms">Terms & Conditions</a></li>
+        <li><a href="http://localhost/acodeabove/privacy-policy.php">Privacy Policy</a></li>
       </ul>
     </div>
   </div>
